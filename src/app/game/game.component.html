@@ -1,1 +1,6 @@
-<p>game works!</p>
+<div *ngFor="let card of cards" (click)="SendCard(card.id)">
+  {{card.id}}
+  {{card.value}}
+  {{card.color}}
+  {{card.special}}
+  <div>

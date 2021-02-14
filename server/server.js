@@ -7,14 +7,26 @@ var io = require('socket.io')(http);
 io.on('connection', function (socket) {
   console.log('A user connected: ' + socket.id);
 
+  let players = [];
+  let secondPlayer;
+  socket.on('isMyTurn', (piro) => {
+    socket.broadcast.emit('isMyTurn', true);
+  });
+
+  socket.on('firstTurn', (piro) => {
+    if (players.length === 0) {
+      socket.broadcast.emit('firstTurn', true);
+    } else {
+      socket.broadcast.emit('firstTurn', false);
+    }
+
+  });
 
   socket.on('SendCard', (piro) => {
-    console.log(piro);
     socket.broadcast.emit('SendCard', piro);
   });
 
   socket.on('EnemyCards', (piro) => {
-    console.log(piro);
     socket.broadcast.emit('EnemyCards', piro);
   });
 

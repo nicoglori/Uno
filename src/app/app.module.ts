@@ -11,6 +11,8 @@ import { CreationFormComponent } from './creation-form/creation-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { JoinFormComponent } from './join-form/join-form.component';
 import { ChatInboxComponent } from './chat-inbox/chat-inbox.component';
+import { GameComponent } from './game/game.component';
+import { DeckComponent } from './game/deck/deck.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ChatInboxComponent } from './chat-inbox/chat-inbox.component';
     CreationFormComponent,
     FooterComponent,
     JoinFormComponent,
-    ChatInboxComponent
+    ChatInboxComponent,
+    GameComponent,
+    DeckComponent
   ],
   imports: [
     BrowserModule,

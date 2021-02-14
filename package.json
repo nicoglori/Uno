@@ -29,7 +29,6 @@
     "@angular/compiler-cli": "~11.2.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "angular-cli": "^1.0.0-beta.28.3",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -42,17 +41,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.2"
-  },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.",
-  "main": "karma.conf.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicoglori/Uno.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nicoglori/Uno/issues"
-  },
-  "homepage": "https://github.com/nicoglori/Uno#readme"
+  }
 }

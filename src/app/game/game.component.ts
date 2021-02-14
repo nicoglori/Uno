@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Card } from './deck/card.model';
+import { GameService } from './game.service';
 
 @Component({
   selector: 'app-game',
@@ -19,16 +21,16 @@ export class GameComponent implements OnInit {
     this.setupGame();
   }
 
-  setupGame() {
+  setupGame() { }
 
-    constructor() { }
 
-    SendCard(idcard: number) {
-      this.card = this.gameService.getCard(idcard);
-      this.pileCard = this.card;
-      this.cards = this.cards.filter(c => c !== this.card);
-      console.log(idcard);
-      console.log(this.card);
-    }
-
+  SendCard(idcard: number) {
+    this.card = this.gameService.getCard(idcard);
+    this.pileCard = this.card;
+    this.cards = this.cards.filter(c => c !== this.card);
+    console.log(idcard);
+    console.log(this.card);
   }
+
+
+}

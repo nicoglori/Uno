@@ -14,9 +14,11 @@ export class GameComponent implements OnInit {
   cards: Card[];
   card: Card;
   pileCard: Card;
+  enemyCards: Card[];
+
   constructor(private gameService: GameService) {
     this.cards = this.gameService.getCards();
-
+    this.enemyCards = this.gameService.getCards();
   }
 
   ngOnInit(): void {
@@ -30,6 +32,9 @@ export class GameComponent implements OnInit {
       this.pileCard = data;
     });
 
+    this.socket.on('EnemyCards', (data: Card[]) => {
+      this.enemyCards = data;
+    })
 
   }
 
@@ -45,6 +50,7 @@ export class GameComponent implements OnInit {
     console.log(this.card);
 
     this.socket.emit('SendCard', this.pileCard);
+    this.socket.emit('EnemyCards', this.cards);
 
   }
 

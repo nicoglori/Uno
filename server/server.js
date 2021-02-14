@@ -8,7 +8,7 @@ io.on('connection', function (socket) {
   console.log('A user connected: ' + socket.id);
 
 
-  socket.on('SendCard', function (piro) {
+  socket.on('SendCard', (piro) => {
     console.log(piro);
     socket.broadcast.emit('SendCard', piro);
   });

@@ -25,12 +25,9 @@ export class GameComponent implements OnInit {
 
   setupGame() {
     this.socket = io('http://localhost:3000', { transports: ['websocket', 'polling', 'flashsocket'] });
-    this.socket.on('connect', function () {
-      console.log('Connected!');
-    });
 
-    this.socket.on('SendCard', (data: string) => {
-      console.log(data);
+    this.socket.on('SendCard', (data: Card) => {
+      this.pileCard = data;
     });
 
 
@@ -46,6 +43,9 @@ export class GameComponent implements OnInit {
     this.cards = this.cards.filter(c => c !== this.card);
     console.log(idcard);
     console.log(this.card);
+
+    this.socket.emit('SendCard', this.pileCard);
+
   }
 
 

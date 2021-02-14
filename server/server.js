@@ -13,6 +13,12 @@ io.on('connection', function (socket) {
     socket.broadcast.emit('SendCard', piro);
   });
 
+  socket.on('EnemyCards', (piro) => {
+    console.log(piro);
+    socket.broadcast.emit('EnemyCards', piro);
+  });
+
+
   socket.on('message', (msg) => {
     console.log(msg);
     socket.broadcast.emit('message-broadcast', msg);

@@ -1,13 +1,12 @@
 <form [formGroup]="creationForm" (ngSubmit)="onSubmit()">
-
-  <label>
-    Nome della stanza:
-    <input type="text" formControlName="roomName">
-  </label>
-
-  <label>
-    Password della stanza:
-    <input type="text" formControlName="roomPswd">
-  </label>
-  <button type="submit" [disabled]="!creationForm.valid">Submit</button>
+  <div class="form-group">
+    <label for="roomName">Nome stanza</label>
+    <input type="text" class="form-control" id="roomName" placeholder="Inserisci nome stanza"
+      formControlName="roomName">
+  </div>
+  <div class="form-group">
+    <label for="roomPswd">Password</label>
+    <input type="password" class="form-control" id="roomPswd" placeholder="Password" formControlName="roomPswd">
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!creationForm.valid">Submit</button>
 </form>

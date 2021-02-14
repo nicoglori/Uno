@@ -15,6 +15,7 @@ export class GameComponent implements OnInit {
   move: Card;
   cards: Card[];
   card: Card;
+  pileCard: Card;
   constructor(private gameService: GameService) {
     this.cards = this.gameService.getCards();
   }
@@ -29,6 +30,8 @@ export class GameComponent implements OnInit {
 
   SendCard(idcard: number) {
     this.card = this.gameService.getCard(idcard);
+    this.pileCard = this.card;
+    this.cards = this.cards.filter(c => c !== this.card);
     console.log(idcard);
     console.log(this.card);
   }

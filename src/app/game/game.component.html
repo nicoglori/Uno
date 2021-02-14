@@ -1,6 +1,23 @@
-<div *ngFor="let card of cards" (click)="SendCard(card.id)">
-  {{card.id}}
-  {{card.value}}
-  {{card.color}}
-  {{card.special}}
-  <div>
+<div class="row">
+  <div class="col">
+    <div *ngFor="let card of cards" (click)="SendCard(card.id)">
+      {{card.id}}
+      {{card.value}}
+      {{card.color}}
+      {{card.special}}
+    </div>
+
+  </div>
+  <div class="col">
+    <div *ngIf="pileCard">
+      {{pileCard.id}}
+      {{pileCard.value}}
+      {{pileCard.color}}
+      {{pileCard.special}}
+
+
+    </div>
+
+  </div>
+
+</div>

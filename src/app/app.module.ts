@@ -13,7 +13,6 @@ import { JoinFormComponent } from './join-form/join-form.component';
 import { ChatInboxComponent } from './chat-inbox/chat-inbox.component';
 import { GameComponent } from './game/game.component';
 import { DeckComponent } from './game/deck/deck.component';
-import { GameService } from './game/game.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,7 @@ import { GameService } from './game/game.service';
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [GameService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

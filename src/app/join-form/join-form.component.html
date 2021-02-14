@@ -5,14 +5,21 @@
     <div class="card-body">
         <form [formGroup]="joinForm" (ngSubmit)="onSubmit()">
             <div class="form-group">
-                <label for="uname1">Username</label>
-                <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required="">
+                <label for="uname1">Room name</label>
+                <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required=""
+                    formControlName="roomName">
                 <div class="invalid-feedback">Oops, you missed this one.</div>
             </div>
             <div class="form-group">
-                <label>Password</label>
+                <label for="uname1">Username</label>
+                <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required=""
+                    formControlName="username">
+                <div class="invalid-feedback">Oops, you missed this one.</div>
+            </div>
+            <div class="form-group">
+                <label>Room Password</label>
                 <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required=""
-                    autocomplete="new-password">
+                    autocomplete="new-password" formControlName="password">
                 <div class="invalid-feedback">Enter your password too!</div>
             </div>
             <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">JOIN</button>

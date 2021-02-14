@@ -10,7 +10,8 @@ export class JoinFormComponent implements OnInit {
 
   joinForm = new FormGroup({
     roomName: new FormControl(''),
-    roomPswd: new FormControl(''),
+    username: new FormControl(''),
+    password: new FormControl(''),
   });
 
   constructor() { }

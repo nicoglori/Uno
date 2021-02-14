@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { CreationFormComponent } from './creation-form/creation-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    CreationFormComponent
+    CreationFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

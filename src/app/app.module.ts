@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { CreationFormComponent } from './creation-form/creation-form.component';
 import { FooterComponent } from './footer/footer.component';
+import { JoinFormComponent } from './join-form/join-form.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     HeaderComponent,
     CreationFormComponent,
-    FooterComponent
+    FooterComponent,
+    JoinFormComponent
   ],
   imports: [
     BrowserModule,

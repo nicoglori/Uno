@@ -12,6 +12,7 @@ export class CreationFormComponent implements OnInit {
   creationForm = new FormGroup({
     roomName: new FormControl(''),
     roomPswd: new FormControl(''),
+    username: new FormControl('')
   });
 
   constructor() { }

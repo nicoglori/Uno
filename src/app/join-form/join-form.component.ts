@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-join-form',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JoinFormComponent implements OnInit {
 
+  joinForm = new FormGroup({
+    roomName: new FormControl(''),
+    roomPswd: new FormControl(''),
+  });
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit() {
+    console.warn(this.joinForm.value);
   }
 
 }

@@ -36,13 +36,13 @@
 <!-- MIE CARTE -->
 <div class="row justify-content-center" id="row-mycards">
 
-  <div *ngFor="let card of cards" (click)="SendCard(card.id)" cdkDrag cdkDragBoundary="#pile">
+  <div *ngFor="let card of cards" (click)="SendCard(card.id)">
     <!--{{card.id}}
     {{card.value}}
     {{card.color}}
     {{card.special}}-->
 
-    <div class="outline shadow rounded" [ngStyle]="setMyStyle(card)">
+    <div class="outline shadow rounded" [ngStyle]="setMyStyle(card)" cdkDrag (cdkDragEnded)="onDragEnded($event)">
       <div class="top"><span>{{card.value}}</span><span></span></div>
       <h1>{{card.value}}</h1>
       <div class="bottom"><span></span><span>{{card.value}}</span></div>

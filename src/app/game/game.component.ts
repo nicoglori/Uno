@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Card } from './deck/card.model';
 import { GameService } from './game.service';
 import { io } from 'socket.io-client';
+import { CdkDragEnd } from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-game',
@@ -58,7 +59,9 @@ export class GameComponent implements OnInit {
       this.socket.emit('EnemyCards', this.cards);
       this.socket.emit('isMyTurn');
       this.isMyTurn = false;
-    }
+
+      return true;
+    } else return false;
   }
 
   setMyStyle(card: Card) {
@@ -68,6 +71,12 @@ export class GameComponent implements OnInit {
       'color': card.color
     };
     return styles;
+  }
+
+  onDragEnded(event: CdkDragEnd): void {
+    if (this.isMyTurn !== true) {
+      event.source._dragRef.reset();
+    }
   }
 
 

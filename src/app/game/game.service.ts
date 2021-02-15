@@ -9,8 +9,8 @@ export class GameService {
     new Card(2, "2", "Blue", false),
     new Card(3, "6", "Red", false),
     new Card(4, "1", "Yellow", false),
-    new Card(5, "+4", undefined, true),
-    new Card(6, "stop", undefined, true),
+    new Card(5, "+4", "black", true),
+    new Card(6, "stop", "black", true),
   ];
 
   selectedCard = new Subject<Card>();

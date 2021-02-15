@@ -36,6 +36,10 @@ io.on('connection', function (socket) {
     socket.broadcast.emit('message-broadcast', msg);
   });
 
+  socket.on('disconnect', function () {
+    console.log('A user disconnected: ' + socket.id);
+  });
+
 });
 
 

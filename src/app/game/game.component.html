@@ -1,35 +1,56 @@
-<div class="row">
-  <div class="col">
-    <div *ngFor="let card of cards" (click)="SendCard(card.id)">
-      {{card.id}}
-      {{card.value}}
-      {{card.color}}
-      {{card.special}}
-    </div>
+<!-- CARTE DEL NEMICO SPAZIO SUPERIORE -->
 
-  </div>
-  <div class="col">
-    <div *ngIf="pileCard">
-      {{pileCard.id}}
-      {{pileCard.value}}
-      {{pileCard.color}}
-      {{pileCard.special}}
+<div class="row justify-content-center">
 
-
-    </div>
-  </div>
-
-  <div class="col">
-
-    <div *ngFor="let enemyCard of enemyCards">
-      {{enemyCard.id}}
-      {{enemyCard.value}}
-      {{enemyCard.color}}
-      {{enemyCard.special}}
-    </div>
+  <div *ngFor="let enemyCard of enemyCards">
+    <!-- {{enemyCard.id}}
+    {{enemyCard.value}}
+    {{enemyCard.color}}
+    {{enemyCard.special}}-->
+    <img src="assets/images/back.svg" id="cards-back">
 
   </div>
 
+</div>
+
+<!-- END CARTE DEL NEMICO -->
+
+
+<!-- PILA DI CARTE -->
+
+<div class="row justify-content-center" id="pile">
+  <div *ngIf="pileCard">
+
+    <div class="outline shadow rounded" [ngStyle]="setMyStyle(card)">
+      <div class="top"><span>{{pileCard.value}}</span><span></span></div>
+      <h1>{{pileCard.value}}</h1>
+      <div class="bottom"><span></span><span>{{pileCard.value}}</span></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- END PILA -->
+
+
+<!-- MIE CARTE -->
+<div class="row justify-content-center" id="row-mycards">
+
+  <div *ngFor="let card of cards" (click)="SendCard(card.id)">
+    <!--{{card.id}}
+    {{card.value}}
+    {{card.color}}
+    {{card.special}}-->
+
+    <div class="outline shadow rounded" [ngStyle]="setMyStyle(card)">
+      <div class="top"><span>{{card.value}}</span><span></span></div>
+      <h1>{{card.value}}</h1>
+      <div class="bottom"><span></span><span>{{card.value}}</span></div>
+    </div>
+
+  </div>
 
 
 </div>
+
+<!-- END MIE CARTE -->

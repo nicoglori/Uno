@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="409.60001"
+   height="585.11902"
+   viewBox="0 0 409.6 585.11903"
+   id="svg6155"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="UNO-Back.svg"
+   inkscape:export-filename="C:\Users\José Paulo\Desktop\UNO-Back.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs6157">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4880"
+       id="linearGradient4886"
+       x1="3809.7273"
+       y1="1729.4645"
+       x2="3809.7273"
+       y2="1574.3112"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-7.071068,1.4142135)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4880">
+      <stop
+         style="stop-color:#e5d5ff;stop-opacity:1"
+         offset="0"
+         id="stop4882" />
+      <stop
+         style="stop-color:#7f2aff;stop-opacity:1"
+         offset="1"
+         id="stop4884" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4872"
+       id="linearGradient4878"
+       x1="3835.5862"
+       y1="1703.6056"
+       x2="3835.5862"
+       y2="1522.5862"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4872">
+      <stop
+         style="stop-color:#ffeeaa;stop-opacity:1"
+         offset="0"
+         id="stop4874" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1"
+         offset="1"
+         id="stop4876" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="297.24871"
+     inkscape:cy="327.08772"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4152"
+       spacingx="409.6"
+       spacingy="585.11903" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6160">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-467.24316)">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4168-1-7-3-3-7"
+       width="358.39999"
+       height="511.98004"
+       x="-383.99988"
+       y="503.80914"
+       rx="25.6"
+       ry="25.6"
+       transform="scale(-1,1)" />
+    <g
+       id="g4787"
+       transform="translate(-3686.4004,2340.4806)">
+      <ellipse
+         ry="230.149"
+         rx="142.22751"
+         cx="1633.7858"
+         cy="-3869.2019"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+         id="path4172-6-3-2-6-4-8-4"
+         style="opacity:1;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="translate(0,-3043.6379)"
+         id="rect3362-7-7-19-2-59-9-0"
+         d="m 3712,1170.4004 c -14.1824,0 -25.5996,11.4172 -25.5996,25.5996 l 0,533.9199 c 0,14.1824 11.4172,25.5996 25.5996,25.5996 l 358.4004,0 c 14.1824,0 25.5996,-11.4172 25.5996,-25.5996 L 4096,1196 c 0,-14.1824 -11.4172,-25.5996 -25.5996,-25.5996 l -358.4004,0 z m 25.5996,36.5703 307.2012,0 c 14.1824,0 25.5996,11.4172 25.5996,25.5996 l 0,460.7793 c 0,14.1824 -11.4172,25.5996 -25.5996,25.5996 l -307.2012,0 c -14.1824,0 -25.5996,-11.4172 -25.5996,-25.5996 l 0,-460.7793 c 0,-14.1824 11.4172,-25.5996 25.5996,-25.5996 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         sodipodi:linespacing="125%"
+         id="text4174-4-4-9-3-3-7-8"
+         y="1699.5981"
+         x="3687.3813"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.5px;line-height:125%;font-family:'Britannic Bold';-inkscape-font-specification:'Britannic Bold, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4886);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:url(#linearGradient4886);fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="1699.5981"
+           x="3687.3813"
+           id="tspan4860"
+           sodipodi:role="line">UNO</tspan></text>
+      <text
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         sodipodi:linespacing="125%"
+         id="text4174-7-7-7-1-2-1"
+         y="1694.7596"
+         x="3691.6353"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.5px;line-height:125%;font-family:'Britannic Bold';-inkscape-font-specification:'Britannic Bold, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4878);fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:url(#linearGradient4878);fill-opacity:1"
+           y="1694.7596"
+           x="3691.6353"
+           id="tspan4858"
+           sodipodi:role="line">UNO</tspan></text>
+    </g>
+  </g>
+</svg>

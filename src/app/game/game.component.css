@@ -1,0 +1,57 @@
+#cards-back{
+    max-width: 100px;
+}
+
+
+#row-mycards{
+
+}
+
+#pile{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 30vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.my-cards{
+
+}
+
+span{ 
+    display: block; 
+}
+ 
+.outline{ 
+    width: 110px; 
+    border: 0px solid black; 
+    text-align: center; 
+    padding: 10px;
+    margin: 10px; 
+    background: #FFF;
+    height:100%;
+    color:#FFF;
+}
+.top{ 
+    text-align: left; 
+    color: #fff;
+}
+.bottom{
+     text-align: right; 
+     color: #fff;
+}
+ 
+.shadow{ 
+    box-shadow: 1px 1px 3px #000;
+     -moz-box-shadow: 1px 1px 3px #000; 
+     -webkit-box-shadow: 1px 1px 3px #000; 
+}
+.rounded{ 
+    border-radius:10px; 
+    -moz-border-radius:10px; 
+    -webkit-border-radius:10px;
+}

@@ -60,5 +60,14 @@ export class GameComponent implements OnInit {
     }
   }
 
+  setMyStyle(card: Card) {
+    let styles = {
+      'background': 'radial-gradient(ellipse at center,  #fff 0%, #fff 47%,#fff 47%,#fff 47%,' + card.color + ' 48%)',
+      'background-repeat': 'no-repeat',
+      'color': card.color
+    };
+    return styles;
+  }
+
 
 }

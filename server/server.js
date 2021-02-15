@@ -23,6 +23,7 @@ io.on('connection', function (socket) {
   });
 
   socket.on('SendCard', (piro) => {
+    console.log(piro);
     socket.broadcast.emit('SendCard', piro);
   });
 

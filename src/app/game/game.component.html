@@ -21,7 +21,7 @@
 <div class="row justify-content-center" id="pile">
   <div *ngIf="pileCard">
 
-    <div class="outline shadow rounded" [ngStyle]="setMyStyle(card)">
+    <div class="outline shadow rounded" [ngStyle]="setMyStyle(pileCard)">
       <div class="top"><span>{{pileCard.value}}</span><span></span></div>
       <h1>{{pileCard.value}}</h1>
       <div class="bottom"><span></span><span>{{pileCard.value}}</span></div>
@@ -36,7 +36,7 @@
 <!-- MIE CARTE -->
 <div class="row justify-content-center" id="row-mycards">
 
-  <div *ngFor="let card of cards" (click)="SendCard(card.id)">
+  <div *ngFor="let card of cards" (click)="SendCard(card.id)" cdkDrag cdkDragBoundary="#pile">
     <!--{{card.id}}
     {{card.value}}
     {{card.color}}

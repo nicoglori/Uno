@@ -14,6 +14,8 @@ import { ChatInboxComponent } from './chat-inbox/chat-inbox.component';
 import { GameComponent } from './game/game.component';
 import { DeckComponent } from './game/deck/deck.component';
 import { GameService } from './game/game.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { GameService } from './game/game.service';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    DragDropModule
   ],
   providers: [GameService],
   bootstrap: [AppComponent]
